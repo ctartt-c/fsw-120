@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+}
+
+.cardContainer {
+  text-align: center;
+}
+
+.spotCards {
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  height: 220px;
+  vertical-align: middle;
+  margin: 2px;
+}
+
+.spotCards:hover {
+  border: 2px solid black;
+}
+
+@media only screen and (max-width: 750px) {
+  .spotCards {
+    display: inline-block; 
+    width: 48%;
+ }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .spotCards {
+    display: inline-block;
+    width: 90%
+  }
+}
